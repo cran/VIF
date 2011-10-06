@@ -26,12 +26,29 @@
 }
 
 \author{ 
-	Dongyu Lin \email{dongyu@wharton.upenn.edu}
+	Dongyu Lin \email{dongyu.lin@gmail.com}
 }
 
 \references{
-	Lin, D., Foster, D.F. and Ungar, L.H. (2009) VIF-Regression: A Fast Regression Algorithm for Large Data. 
-	\url{http://stat.wharton.upenn.edu/~dongyu/Papers/VIF.pdf}
+	Dongyu Lin, Dean P. Foster, and Lyle H. Ungar. (2011).
+	{VIF-Regression: A Fast Regression Algorithm for Large Data}.  
+	\emph{Journal of the American Statistical Association}, 
+	Vol. 106, No. 493: 232--247. 
+	\url{http://gosset.wharton.upenn.edu/~foster/research/vif_jasa_final.pdf}
+	
+	The data sets used in the paper can be downloaded via following links: 
+ 	
+	Boston Housing Data:
+	\url{http://gosset.wharton.upenn.edu/~foster/auction/boston.csv}
+
+	Bankruptcy Data:
+	\url{http://gosset.wharton.upenn.edu/~foster/auction/bankruptcy.csv}
+	
+	Call Center Data:
+	\url{http://gosset.wharton.upenn.edu/~foster/auction/calldata.tar.gz}
+ 
+ 	Many others:
+	\url{http://gosset.wharton.upenn.edu/~foster/auction/auction.html}.
 }
 
 \examples{
@@ -43,7 +60,7 @@
 	
 	data(housingexp);
 	colnames(housingexp$x);
-	vif.sel <- vif(housingexp$y, housingexp$x, w0 = 0.005, dw = 0.005, subsize = 300, trace = FALSE);
+	vif.sel <- vif(housingexp$y, housingexp$x, w0 = 0.0005, dw = 0.005, subsize = 300, trace = FALSE);
 
 }
 

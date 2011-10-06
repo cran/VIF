@@ -1,0 +1,9 @@
+be6a72fc3b6d3f368c6709c2f0624603 *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+aa822f9a0c3baeecc2c367291fa6133b *R/vif.R
+af3fc6b1ee22f49c7282cc99f1f9a928 *data/datalist
+087dc1bb831d516947dbb6e48cf66437 *data/housingexp.RData
+dde4e2cfd088ca2d7f54f165f9c6e51e *data/syn.RData
+983a5d4134c6b25b0ed600ed3c4ca443 *man/housingexp.Rd
+d0c9dbad386276af3a8f56a97e2c4c92 *man/syn.Rd
+11197cb6017205a931ac1118a10cabbd *man/vif.Rd
